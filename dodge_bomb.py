@@ -12,6 +12,7 @@ DELTA = {
     pg.K_LEFT: (-5, 0),  # 左矢印キー
     pg.K_RIGHT: (+5, 0),  # 右矢印キー
 }
+
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -147,7 +148,6 @@ def main():
         pg.display.update()
         tmr += 1
         clock.tick(50)
-
 
 if __name__ == "__main__":
     pg.init()
